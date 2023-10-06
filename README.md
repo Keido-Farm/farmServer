@@ -1,2 +1,2 @@
 # farmServer
-ini adalah server untuk farm
+ini adalah server untuk website management Keido
