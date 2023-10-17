@@ -3,28 +3,49 @@ const { signToken } = require("../helpers/jwt");
 const {User} = require("../models");
 
 class UserController {
-  static async register(req, res, next) {
+  static async registerAdmin(req, res, next) {
     try {
       const {
+        name:inputName,
         username: inputUsername,
         email: inputEmail,
         password: inputPasword,
-        role: inputRole,
-        phoneNumber: inputPhoneNumber,
-        address: inputAddress,
       } = req.body;
 
       await User.create({
-        username: inputUsername,
+        name: inputName,
+        username:inputUsername,
         email: inputEmail,
         password: inputPasword,
-        role: inputRole,
-        phoneNumber: inputPhoneNumber,
-        address: inputAddress,
+        role: 'admin',
       });
 
       res.status(201).json({
-        msg: "User successfuly created",
+        msg: "Admin successfuly created",
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+  static async registerABK(req, res, next) {
+    try {
+      const {
+        name:inputName,
+        username: inputUsername,
+        email: inputEmail,
+        password: inputPasword,
+      } = req.body;
+
+      await User.create({
+        name: inputName,
+        username:inputUsername,
+        email: inputEmail,
+        password: inputPasword,
+        role: 'abk',
+      });
+
+      res.status(201).json({
+        msg: "ABK successfuly created",
       });
     } catch (error) {
       next(error);

@@ -5,6 +5,7 @@ module.exports = (sequelize, DataTypes) => {
   class Farm extends Model {
     static associate(models) {
       Farm.belongsTo(models.User, { foreignKey: 'UserId' });
+      Farm.hasMany(models.Period,{foreignKey:'FarmId'})
     }
   }
 

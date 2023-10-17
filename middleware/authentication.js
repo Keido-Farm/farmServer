@@ -18,7 +18,11 @@ async function authentication (req,res,next) {
       throw {name:'unauthenticated'}
     }
 
-    req.user = findUser
+    req.user = {
+      id:findUser.id,
+      name:findUser.name,
+      role:findUser.role
+    }
 
     next();
   } catch (error) {
