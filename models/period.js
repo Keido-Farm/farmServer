@@ -10,6 +10,7 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
       Period.belongsTo(models.Farm,{foreignKey:'FarmId'})
+      Period.hasMany(models.weeklyReport,{foreignKey:'PeriodId'})
     }
   }
   Period.init(
@@ -28,7 +29,7 @@ module.exports = (sequelize, DataTypes) => {
       },
       endDate: DataTypes.DATE,
       startingDOCNum: {
-        type: DataTypes.INTEGER.DATE,
+        type: DataTypes.INTEGER,
         allowNull: false,
         validate: {
           notNull: {

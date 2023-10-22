@@ -9,11 +9,10 @@ router.post("/registerAdmin", UserController.registerAdmin);
 router.post("/registerABK", UserController.registerABK);
 router.post("/login", UserController.login);
 router.use(authentication)
+router.get('/allAbk',UserController.getAllAbk)
 router.post('/farm',FarmController.createFarm)
 router.get('/farm',FarmController.getFarmByUserId)
-router.get('/',(req,res) => {
-  res.send('ini terhit')
-})
+
 
 
 

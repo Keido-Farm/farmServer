@@ -5,6 +5,12 @@ const errorHandler = (err,req,res,next) => {
   if (err.name === 'unauthenticated'|| err.name === 'JsonWebTokenError'){
     status = 401
     message = 'Invalid Token please re-login'
+  } else if (err.name === 'InvalidFarmId'){
+    status = 404
+    message = 'Invalid Farm Id'
+  } else if (err.name === 'InvalidPeriodId'){
+    status = 404
+    message = 'Invalid Period Id'
   }
   res.status(status).json({message:message})
 };
