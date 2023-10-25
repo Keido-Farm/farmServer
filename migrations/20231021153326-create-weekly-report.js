@@ -15,7 +15,10 @@ module.exports = {
       endDate: {
         type: Sequelize.DATE
       },
-      jumlahAyam: {
+      jumlahAyamAwal: {
+        type: Sequelize.INTEGER
+      },
+      jumlahAyamAkhir:{
         type: Sequelize.INTEGER
       },
       feedIntake: {

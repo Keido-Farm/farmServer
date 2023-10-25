@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Ricardo",
+    "username": "welbert5074",
+    "email": "admin1@mail.com",
+    "password": "admin123",
+    "role": "admin"
+  },
+  {
+    "name": "Juan",
+    "username": "kman98111",
+    "email": "admin2@mail.com",
+    "password": "admin123",
+    "role": "admin"
+  },
+  {
+    "name": "Dhanang",
+    "username": "dhanang",
+    "email": "abk1@mail.com",
+    "password": "abk123",
+    "role": "abk"
+  },
+  {
+    "name": "Budi",
+    "username": "budi",
+    "email": "abk2@mail.com",
+    "password": "abk123",
+    "role": "abk"
+  }
+]

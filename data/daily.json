@@ -1,0 +1,93 @@
+[
+  {
+    "FarmId": 1,
+    "recordDate":"2023/10/09",
+    "mati": 0,
+    "afkir": 5,
+    "hidup": 2545,
+    "diberikan":2,
+    "sisa":1,
+    "dikonsumsi":1,
+    "tindakan":"lorem ipsum",
+    "WeeklyReportId":1,
+    "UserId":3
+  },
+  {
+    "FarmId": 1,
+    "recordDate":"2023/10/10",
+    "mati": 0,
+    "afkir": 5,
+    "hidup": 2540,
+    "diberikan":3,
+    "sisa":1,
+    "dikonsumsi":2,
+    "tindakan":"lorem ipsum",
+    "WeeklyReportId":1,
+    "UserId":3
+  },
+  {
+    "FarmId": 1,
+    "recordDate":"2023/10/11",
+    "mati": 0,
+    "afkir": 5,
+    "hidup": 2535,
+    "diberikan":2,
+    "sisa":1,
+    "dikonsumsi":1,
+    "tindakan":"lorem ipsum",
+    "WeeklyReportId":1,
+    "UserId":3
+  },
+  {
+    "FarmId": 1,
+    "recordDate":"2023/10/12",
+    "mati": 10,
+    "afkir": 0,
+    "hidup": 2530,
+    "diberikan":5,
+    "sisa":2,
+    "dikonsumsi":3,
+    "tindakan":"lorem ipsum",
+    "WeeklyReportId":1,
+    "UserId":3
+  },
+  {
+    "FarmId": 1,
+    "recordDate":"2023/10/13",
+    "mati": 5,
+    "afkir": 5,
+    "hidup": 2520,
+    "diberikan":3,
+    "sisa":2,
+    "dikonsumsi":1,
+    "tindakan":"lorem ipsum",
+    "WeeklyReportId":1,
+    "UserId":3
+  },
+  {
+    "FarmId": 1,
+    "recordDate":"2023/10/14",
+    "mati": 5,
+    "afkir": 5,
+    "hidup": 2510,
+    "diberikan":7,
+    "sisa":2,
+    "dikonsumsi":5,
+    "tindakan":"lorem ipsum",
+    "WeeklyReportId":1,
+    "UserId":3
+  },
+  {
+    "FarmId": 1,
+    "recordDate":"2023/10/15",
+    "mati": 5,
+    "afkir": 5,
+    "hidup": 2500,
+    "diberikan":5,
+    "sisa":0,
+    "dikonsumsi":5,
+    "tindakan":"lorem ipsum",
+    "WeeklyReportId":1,
+    "UserId":3
+  }
+]

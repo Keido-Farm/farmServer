@@ -11,6 +11,9 @@ const errorHandler = (err,req,res,next) => {
   } else if (err.name === 'InvalidPeriodId'){
     status = 404
     message = 'Invalid Period Id'
+  } else if (err.name === 'InvalidWeekReportId'){
+    status = 404
+    message = 'Invalid Weekly Report Id'
   }
   res.status(status).json({message:message})
 };

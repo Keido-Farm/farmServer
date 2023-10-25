@@ -18,7 +18,8 @@ module.exports = (sequelize, DataTypes) => {
   weeklyReport.init({
     startingDate: DataTypes.DATE,
     endDate: DataTypes.DATE,
-    jumlahAyam: DataTypes.INTEGER,
+    jumlahAyamAwal: DataTypes.INTEGER,
+    jumlahAyamAkhir: DataTypes.INTEGER,
     feedIntake: DataTypes.INTEGER,
     mortalitas: DataTypes.INTEGER,
     deplesi: DataTypes.INTEGER,

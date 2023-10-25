@@ -20,6 +20,19 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull:false
       },
+      status: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        defaultValue: 'active', 
+        validate: {
+          notNull: {
+            msg: "Status Required",
+          },
+          notEmpty: {
+            msg: "Status Required",
+          },
+        },
+      },
       FarmId: {
         type: Sequelize.INTEGER,
         references:{

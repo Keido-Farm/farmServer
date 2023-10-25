@@ -40,6 +40,19 @@ module.exports = (sequelize, DataTypes) => {
           },
         },
       },
+      status: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        defaultValue: 'active',
+        validate: {
+          notNull: {
+            msg: "Status Required",
+          },
+          notEmpty: {
+            msg: "Status Required",
+          },
+        },
+      },
       FarmId: {
         type: DataTypes.INTEGER,
         allowNull: false,

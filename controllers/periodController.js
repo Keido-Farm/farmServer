@@ -1,4 +1,4 @@
-const { Period, Farm, User } = require("../models");
+const { Period, Farm, weeklyReport } = require("../models");
 
 class PeriodController {
   static async addPeriod(req, res, next) {
@@ -47,11 +47,11 @@ class PeriodController {
       const updatedPeriod = await Period.findByPk(periodId);
 
       res.status(200).json({
-        msg:'Period Updated Successfully',
-        period:updatedPeriod
-      })
+        msg: "Period Updated Successfully",
+        period: updatedPeriod,
+      });
     } catch (err) {
-      next(err)
+      next(err);
     }
   }
   static async deletePeriod(req, res, next) {
@@ -71,6 +71,56 @@ class PeriodController {
       });
     } catch (err) {
       next(err);
+    }
+  }
+
+  static async getPeriodById(req, res, next) {
+    try {
+      const { periodId } = req.params;
+      const details = await Period.findByPk(periodId);
+      if (!details) {
+        throw { name: "InvalidPeriodId" };
+      }
+      const weeklyReports = await weeklyReport.findAll({
+        where: {
+          PeriodId: periodId,
+        },
+      });
+      res.status(200).json({
+        details: details,
+        weeklyReports: weeklyReports,
+      });
+    } catch (err) {
+      next(err);
+    }
+  }
+
+  static async endPeriod(req, res, next) {
+    try {
+      const { periodId } = req.params;
+      const foundPeriod = await Period.findByPk(periodId);
+      if (!foundPeriod) {
+        throw { name: "InvalidPeriodId" };
+      }
+      await Period.update(
+        {
+          endDate: new Date(),
+          status:'archived'
+        },
+        {
+          where: {
+            id: periodId,
+          },
+        }
+      );
+      const updatedPeriod = await Period.findByPk(periodId);
+
+      res.status(200).json({
+        msg: "Period Archived Successfully",
+        period: updatedPeriod,
+      });
+    } catch (err) {
+      next(err)
     }
   }
 }
