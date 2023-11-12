@@ -24,6 +24,7 @@ class UserController {
         msg: "Admin successfuly created",
       });
     } catch (error) {
+      console.log(error);
       next(error);
     }
   }
@@ -55,14 +56,10 @@ class UserController {
     try {
       const { email, password } = req.body;
       if (!email) {
-        return res.status(400).json({
-          message: "Email is required",
-        });
+        throw { name: "NoEmail" };
       }
       if (!password) {
-        return res.status(400).json({
-          message: "Password is required",
-        });
+        throw { name: "NoPassword" };
       }
 
       const foundUser = await User.findOne({ where: { email: email } });
@@ -70,23 +67,19 @@ class UserController {
         const comparePassword = passComp(password, foundUser.password);
         if (comparePassword) {
           const token = signToken({ id: foundUser.id });
+          const role = foundUser.role
           res.status(200).json({
             access_token: token,
+            role: role
           });
         } else {
-          return res.status(401).json({
-            message: "Invalid email/password",
-          });
+          throw { name: "InvalidUser" };
         }
       } else {
-        return res.status(401).json({
-          message: "Invalid email/password",
-        });
+        throw { name: "InvalidUser" };
       }
     } catch (err) {
-      res.status(500).json({
-        message: "Internal server error",
-      });
+      next(err);
     }
   }
 
@@ -94,17 +87,16 @@ class UserController {
     try {
       const abkUsers = await User.findAll({
         where: {
-          role: 'abk',
+          role: "abk",
         },
-        attributes: { exclude: ['password'] }, 
+        attributes: { exclude: ["password"] },
       });
-  
+
       res.status(200).json(abkUsers);
     } catch (error) {
       next(error);
     }
   }
-  
 }
 
 module.exports = UserController;
