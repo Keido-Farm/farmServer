@@ -28,13 +28,13 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       diberikan: {
-        type: Sequelize.INTEGER
+        type: Sequelize.FLOAT
       },
       sisa: {
-        type: Sequelize.INTEGER
+        type: Sequelize.FLOAT
       },
       dikonsumsi: {
-        type: Sequelize.INTEGER
+        type: Sequelize.FLOAT
       },
       tindakan: {
         type: Sequelize.TEXT

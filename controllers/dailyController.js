@@ -53,7 +53,7 @@ class DailyReportController {
             UserId: req.user.id,
           });
           res.status(201).json({
-            msg: `Daily report submitted for Farm ${FarmId}`
+            message: `Daily report submitted for Farm ${FarmId}`
           })
         } else if (mostRecentDailyReport) {
           await dailyReport.create({
@@ -71,7 +71,7 @@ class DailyReportController {
           });
           console.log(mostRecentDailyReport.hidup,(Number(mati) + Number(afkir)));
           res.status(201).json({
-            msg: `Daily report submitted for Farm ${FarmId}`
+            message: `Daily report submitted for Farm ${FarmId}`
           })
         }
       }

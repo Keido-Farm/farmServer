@@ -48,6 +48,14 @@ class FarmController {
     }
   }
 
+  static async getFarmsForABK(req,res,next){
+    try {
+      const data = await Farm.findAll()
+      res.status(200).json(data)
+    } catch (err) {
+      next(err)
+    }
+  }
   static async getFarmById(req, res, next) {
     try {
       const { farmId } = req.params;

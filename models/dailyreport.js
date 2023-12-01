@@ -21,9 +21,9 @@ module.exports = (sequelize, DataTypes) => {
     mati: DataTypes.INTEGER,
     afkir: DataTypes.INTEGER,
     hidup: DataTypes.INTEGER,
-    diberikan: DataTypes.INTEGER,
-    sisa: DataTypes.INTEGER,
-    dikonsumsi: DataTypes.INTEGER,
+    diberikan: DataTypes.FLOAT,
+    sisa: DataTypes.FLOAT,
+    dikonsumsi: DataTypes.FLOAT,
     tindakan: DataTypes.TEXT,
     WeeklyReportId: DataTypes.INTEGER,
     UserId: DataTypes.INTEGER
