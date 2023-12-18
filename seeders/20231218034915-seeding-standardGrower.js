@@ -12,11 +12,12 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-   const data = require('../data/weekly.json').map((e) => {
+   const data = require('../data/growerStandard.json').map((e) => {
     e.createdAt = e.updatedAt = new Date();
     return e
-   });
-   await queryInterface.bulkInsert('weeklyReports',data)
+   })
+
+   await queryInterface.bulkInsert('GrowerStandards',data)
   },
 
   async down (queryInterface, Sequelize) {
@@ -26,6 +27,6 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-    await queryInterface.bulkDelete('weeklyReports',null)
+    await queryInterface.bulkDelete('GrowerStandards',null)
   }
 };

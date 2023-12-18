@@ -1,0 +1,542 @@
+[
+  {
+    "umur": "1",
+    "strain": "ISA Brown",
+    "feedIntake": "10-12",
+    "beratBadan": "64-67"
+  },
+  {
+    "umur": "2",
+    "strain": "ISA Brown",
+    "feedIntake": "16-18",
+    "beratBadan": "132-139"
+  },
+  {
+    "umur": "3",
+    "strain": "ISA Brown",
+    "feedIntake": "24-26",
+    "beratBadan": "211-221"
+  },
+  {
+    "umur": "4",
+    "strain": "ISA Brown",
+    "feedIntake": "31-33",
+    "beratBadan": "296-312"
+  },
+  {
+    "umur": "5",
+    "strain": "ISA Brown",
+    "feedIntake": "36-38",
+    "beratBadan": "388-408"
+  },
+  {
+    "umur": "6",
+    "strain": "ISA Brown",
+    "feedIntake": "41-43",
+    "beratBadan": "485-510"
+  },
+  {
+    "umur": "7",
+    "strain": "ISA Brown",
+    "feedIntake": "45-47",
+    "beratBadan": "584-614"
+  },
+  {
+    "umur": "8",
+    "strain": "ISA Brown",
+    "feedIntake": "49-51",
+    "beratBadan": "685-720"
+  },
+  {
+    "umur": "9",
+    "strain": "ISA Brown",
+    "feedIntake": "53-55",
+    "beratBadan": "786-826"
+  },
+  {
+    "umur": "10",
+    "strain": "ISA Brown",
+    "feedIntake": "57-59",
+    "beratBadan": "886-932"
+  },
+  {
+    "umur": "11",
+    "strain": "ISA Brown",
+    "feedIntake": "60-62",
+    "beratBadan": "984-1034"
+  },
+  {
+    "umur": "12",
+    "strain": "ISA Brown",
+    "feedIntake": "63-65",
+    "beratBadan": "1079-1134"
+  },
+  {
+    "umur": "13",
+    "strain": "ISA Brown",
+    "feedIntake": "66-68",
+    "beratBadan": "1169-1229"
+  },
+  {
+    "umur": "14",
+    "strain": "ISA Brown",
+    "feedIntake": "69-71",
+    "beratBadan": "1255-1319"
+  },
+  {
+    "umur": "15",
+    "strain": "ISA Brown",
+    "feedIntake": "72-74",
+    "beratBadan": "1335-1404"
+  },
+  {
+    "umur": "16",
+    "strain": "ISA Brown",
+    "feedIntake": "75-77",
+    "beratBadan": "1409-1481"
+  },
+  {
+    "umur": "17",
+    "strain": "ISA Brown",
+    "feedIntake": "78-80",
+    "beratBadan": "1476-1552"
+  },
+  {
+    "umur": "18",
+    "strain": "ISA Brown",
+    "feedIntake": "83-85",
+    "beratBadan": "1537-1615"
+  },
+  {
+    "umur": "1",
+    "strain": "Lohmann Brown",
+    "feedIntake": "11",
+    "beratBadan": "75"
+  },
+  {
+    "umur": "2",
+    "strain": "Lohmann Brown",
+    "feedIntake": "17",
+    "beratBadan": "130"
+  },
+  {
+    "umur": "3",
+    "strain": "Lohmann Brown",
+    "feedIntake": "22",
+    "beratBadan": "195"
+  },
+  {
+    "umur": "4",
+    "strain": "Lohmann Brown",
+    "feedIntake": "28",
+    "beratBadan": "275"
+  },
+  {
+    "umur": "5",
+    "strain": "Lohmann Brown",
+    "feedIntake": "34",
+    "beratBadan": "367"
+  },
+  {
+    "umur": "6",
+    "strain": "Lohmann Brown",
+    "feedIntake": "40",
+    "beratBadan": "475"
+  },
+  {
+    "umur": "7",
+    "strain": "Lohmann Brown",
+    "feedIntake": "45",
+    "beratBadan": "583"
+  },
+  {
+    "umur": "8",
+    "strain": "Lohmann Brown",
+    "feedIntake": "50",
+    "beratBadan": "684"
+  },
+  {
+    "umur": "9",
+    "strain": "Lohmann Brown",
+    "feedIntake": "55",
+    "beratBadan": "781"
+  },
+  {
+    "umur": "10",
+    "strain": "Lohmann Brown",
+    "feedIntake": "60",
+    "beratBadan": "875"
+  },
+  {
+    "umur": "11",
+    "strain": "Lohmann Brown",
+    "feedIntake": "65",
+    "beratBadan": "966"
+  },
+  {
+    "umur": "12",
+    "strain": "Lohmann Brown",
+    "feedIntake": "69",
+    "beratBadan": "1054"
+  },
+  {
+    "umur": "13",
+    "strain": "Lohmann Brown",
+    "feedIntake": "73",
+    "beratBadan": "1139"
+  },
+  {
+    "umur": "14",
+    "strain": "Lohmann Brown",
+    "feedIntake": "77",
+    "beratBadan": "1221"
+  },
+  {
+    "umur": "15",
+    "strain": "Lohmann Brown",
+    "feedIntake": "81",
+    "beratBadan": "1300"
+  },
+  {
+    "umur": "16",
+    "strain": "Lohmann Brown",
+    "feedIntake": "85",
+    "beratBadan": "1377"
+  },
+  {
+    "umur": "17",
+    "strain": "Lohmann Brown",
+    "feedIntake": "89",
+    "beratBadan": "1450"
+  },
+  {
+    "umur": "18",
+    "strain": "Lohmann Brown",
+    "feedIntake": "93",
+    "beratBadan": "1521"
+  },
+  {
+    "umur": "1",
+    "strain": "Hisex Brown",
+    "feedIntake": "10-12",
+    "beratBadan": "64-67"
+  },
+  {
+    "umur": "2",
+    "strain": "Hisex Brown",
+    "feedIntake": "16-18",
+    "beratBadan": "132-139"
+  },
+  {
+    "umur": "3",
+    "strain": "Hisex Brown",
+    "feedIntake": "24-26",
+    "beratBadan": "211-221"
+  },
+  {
+    "umur": "4",
+    "strain": "Hisex Brown",
+    "feedIntake": "31-33",
+    "beratBadan": "296-312"
+  },
+  {
+    "umur": "5",
+    "strain": "Hisex Brown",
+    "feedIntake": "36-38",
+    "beratBadan": "388-408"
+  },
+  {
+    "umur": "6",
+    "strain": "Hisex Brown",
+    "feedIntake": "41-43",
+    "beratBadan": "485-510"
+  },
+  {
+    "umur": "7",
+    "strain": "Hisex Brown",
+    "feedIntake": "45-47",
+    "beratBadan": "584-614"
+  },
+  {
+    "umur": "8",
+    "strain": "Hisex Brown",
+    "feedIntake": "49-51",
+    "beratBadan": "685-720"
+  },
+  {
+    "umur": "9",
+    "strain": "Hisex Brown",
+    "feedIntake": "53-55",
+    "beratBadan": "786-826"
+  },
+  {
+    "umur": "10",
+    "strain": "Hisex Brown",
+    "feedIntake": "57-59",
+    "beratBadan": "886-932"
+  },
+  {
+    "umur": "11",
+    "strain": "Hisex Brown",
+    "feedIntake": "60-62",
+    "beratBadan": "984-1034"
+  },
+  {
+    "umur": "12",
+    "strain": "Hisex Brown",
+    "feedIntake": "63-65",
+    "beratBadan": "1079-1134"
+  },
+  {
+    "umur": "13",
+    "strain": "Hisex Brown",
+    "feedIntake": "66-68",
+    "beratBadan": "1169-1229"
+  },
+  {
+    "umur": "14",
+    "strain": "Hisex Brown",
+    "feedIntake": "69-71",
+    "beratBadan": "1255-1319"
+  },
+  {
+    "umur": "15",
+    "strain": "Hisex Brown",
+    "feedIntake": "72-74",
+    "beratBadan": "1335-1404"
+  },
+  {
+    "umur": "16",
+    "strain": "Hisex Brown",
+    "feedIntake": "75-77",
+    "beratBadan": "1409-1481"
+  },
+  {
+    "umur": "17",
+    "strain": "Hisex Brown",
+    "feedIntake": "78-80",
+    "beratBadan": "1476-1552"
+  },
+  {
+    "umur": "18",
+    "strain": "Hisex Brown",
+    "feedIntake": "83-85",
+    "beratBadan": "1537-1615"
+  },
+  {
+    "umur": "1",
+    "strain": "Hyline Brown",
+    "feedIntake": "14-15",
+    "beratBadan": "60-70"
+  },
+  {
+    "umur": "2",
+    "strain": "Hyline Brown",
+    "feedIntake": "17-21",
+    "beratBadan": "120-130"
+  },
+  {
+    "umur": "3",
+    "strain": "Hyline Brown",
+    "feedIntake": "23-25",
+    "beratBadan": "180-200"
+  },
+  {
+    "umur": "4",
+    "strain": "Hyline Brown",
+    "feedIntake": "27-29",
+    "beratBadan": "260-270"
+  },
+  {
+    "umur": "5",
+    "strain": "Hyline Brown",
+    "feedIntake": "34-36",
+    "beratBadan": "350-370"
+  },
+  {
+    "umur": "6",
+    "strain": "Hyline Brown",
+    "feedIntake": "38-40",
+    "beratBadan": "450-470"
+  },
+  {
+    "umur": "7",
+    "strain": "Hyline Brown",
+    "feedIntake": "41-43",
+    "beratBadan": "540-580"
+  },
+  {
+    "umur": "8",
+    "strain": "Hyline Brown",
+    "feedIntake": "45-47",
+    "beratBadan": "650-690"
+  },
+  {
+    "umur": "9",
+    "strain": "Hyline Brown",
+    "feedIntake": "49-53",
+    "beratBadan": "760-800"
+  },
+  {
+    "umur": "10",
+    "strain": "Hyline Brown",
+    "feedIntake": "52-56",
+    "beratBadan": "860-920"
+  },
+  {
+    "umur": "11",
+    "strain": "Hyline Brown",
+    "feedIntake": "58-62",
+    "beratBadan": "960-1020"
+  },
+  {
+    "umur": "12",
+    "strain": "Hyline Brown",
+    "feedIntake": "62-66",
+    "beratBadan": "1050-1110"
+  },
+  {
+    "umur": "13",
+    "strain": "Hyline Brown",
+    "feedIntake": "67-71",
+    "beratBadan": "1130-1200"
+  },
+  {
+    "umur": "14",
+    "strain": "Hyline Brown",
+    "feedIntake": "70-74",
+    "beratBadan": "1190-1270"
+  },
+  {
+    "umur": "15",
+    "strain": "Hyline Brown",
+    "feedIntake": "72-76",
+    "beratBadan": "1260-1340"
+  },
+  {
+    "umur": "16",
+    "strain": "Hyline Brown",
+    "feedIntake": "75-79",
+    "beratBadan": "1330-1410"
+  },
+  {
+    "umur": "17",
+    "strain": "Hyline Brown",
+    "feedIntake": "78-82",
+    "beratBadan": "1400-1480"
+  },
+  {
+    "umur": "18",
+    "strain": "Hyline Brown",
+    "feedIntake": "82-88",
+    "beratBadan": "1470-1570"
+  },
+  {
+    "umur": "1",
+    "strain": "Novogen Brown",
+    "feedIntake": "12",
+    "beratBadan": "65-70"
+  },
+  {
+    "umur": "2",
+    "strain": "Novogen Brown",
+    "feedIntake": "18",
+    "beratBadan": "110-120"
+  },
+  {
+    "umur": "3",
+    "strain": "Novogen Brown",
+    "feedIntake": "26",
+    "beratBadan": "180-190"
+  },
+  {
+    "umur": "4",
+    "strain": "Novogen Brown",
+    "feedIntake": "33",
+    "beratBadan": "270-285"
+  },
+  {
+    "umur": "5",
+    "strain": "Novogen Brown",
+    "feedIntake": "38",
+    "beratBadan": "365-385"
+  },
+  {
+    "umur": "6",
+    "strain": "Novogen Brown",
+    "feedIntake": "43",
+    "beratBadan": "470-495"
+  },
+  {
+    "umur": "7",
+    "strain": "Novogen Brown",
+    "feedIntake": "47",
+    "beratBadan": "570-600"
+  },
+  {
+    "umur": "8",
+    "strain": "Novogen Brown",
+    "feedIntake": "51",
+    "beratBadan": "660-695"
+  },
+  {
+    "umur": "9",
+    "strain": "Novogen Brown",
+    "feedIntake": "55",
+    "beratBadan": "750-790"
+  },
+  {
+    "umur": "10",
+    "strain": "Novogen Brown",
+    "feedIntake": "59",
+    "beratBadan": "840-900"
+  },
+  {
+    "umur": "11",
+    "strain": "Novogen Brown",
+    "feedIntake": "64",
+    "beratBadan": "930-990"
+  },
+  {
+    "umur": "12",
+    "strain": "Novogen Brown",
+    "feedIntake": "69",
+    "beratBadan": "1020-1090"
+  },
+  {
+    "umur": "13",
+    "strain": "Novogen Brown",
+    "feedIntake": "70",
+    "beratBadan": "1110-1180"
+  },
+  {
+    "umur": "14",
+    "strain": "Novogen Brown",
+    "feedIntake": "73",
+    "beratBadan": "1190-1255"
+  },
+  {
+    "umur": "15",
+    "strain": "Novogen Brown",
+    "feedIntake": "76",
+    "beratBadan": "1270-1340"
+  },
+  {
+    "umur": "16",
+    "strain": "Novogen Brown",
+    "feedIntake": "79",
+    "beratBadan": "1350-1425"
+  },
+  {
+    "umur": "17",
+    "strain": "Novogen Brown",
+    "feedIntake": "81",
+    "beratBadan": "1430-1510"
+  },
+  {
+    "umur": "18",
+    "strain": "Novogen Brown",
+    "feedIntake": "83",
+    "beratBadan": "1500-1580"
+  }
+]
