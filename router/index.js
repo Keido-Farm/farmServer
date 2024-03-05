@@ -5,6 +5,7 @@ const PeriodController = require("../controllers/periodController");
 const authentication = require("../middleware/authentication");
 const DailyReportController = require("../controllers/dailyController");
 const weeklyReportController = require("../controllers/weeklyController");
+const GrowerStandardController = require("../controllers/growerStdController")
 const router = express.Router();
 
 
@@ -13,12 +14,14 @@ router.post("/users/registerABK", UserController.registerABK);
 router.post("/users/login", UserController.login);
 router.use(authentication)
 router.get('/users/allAbk',UserController.getAllAbk)
+router.get('/daily/:weeklyId',weeklyReportController.GetDailyReport)
 router.post('/daily',DailyReportController.postDailyReport)
 router.post('/farms',FarmController.createFarm)
 router.get('/farms',FarmController.getFarmByUserId)
 router.get('/farmsABK',FarmController.getFarmsForABK)
+router.get('/findGrwStd',GrowerStandardController.findGrowerStd)
+router.post('/weekly/:weeklyId',weeklyReportController.CalculateBB)
 router.get('/weekly/:weeklyId',weeklyReportController.ArchiveWeeklyReportById)
-// router.put('/weekly/:weeklyId',weeklyReportController.ArchiveWeeklyReportById)
 router.put('/daily/:dailyId',DailyReportController.editDailyReport)
 router.delete('/daily/:dailyId',DailyReportController.deleteDailyReport)
 router.get('/daily/:dailyId',DailyReportController.getDailyReportById)
@@ -30,9 +33,5 @@ router.put('/periods/:periodId',PeriodController.editPeriod)
 router.delete('/periods/:periodId',PeriodController.deletePeriod)
 router.get('/periods/:periodId',PeriodController.getPeriodById)
 router.put('/periods/:periodId',PeriodController.endPeriod)
-
-
-
-
 
 module.exports = router;

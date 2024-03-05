@@ -40,7 +40,11 @@ const errorHandler = (err, req, res, next) => {
   } else if (err.name === 'InvalidUser'){
     status = 401;
     message = 'Invalid email/password'
+  } else if (err.name === 'InvalidStandard'){
+    status = 404;
+    message = "Standard Not Found";
   }
+  
   res.status(status).json({ message: message });
 };
 module.exports = errorHandler;

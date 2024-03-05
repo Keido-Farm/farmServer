@@ -20,10 +20,11 @@ module.exports = (sequelize, DataTypes) => {
     endDate: DataTypes.DATE,
     jumlahAyamAwal: DataTypes.INTEGER,
     jumlahAyamAkhir: DataTypes.INTEGER,
-    feedIntake: DataTypes.INTEGER,
-    mortalitas: DataTypes.INTEGER,
-    deplesi: DataTypes.INTEGER,
-    beratBadan: DataTypes.INTEGER,
+    feedIntake: DataTypes.FLOAT,
+    mortalitas: DataTypes.FLOAT,
+    deplesi: DataTypes.FLOAT,
+    beratBadan: DataTypes.FLOAT,
+    ksrgmnBB:DataTypes.FLOAT,
     comment: DataTypes.TEXT,
     PeriodId: DataTypes.INTEGER
   }, {

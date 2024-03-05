@@ -25,6 +25,7 @@ class FarmController {
         farm: data,
       });
     } catch (err) {
+      console.log(err);
       next(err);
     }
   }

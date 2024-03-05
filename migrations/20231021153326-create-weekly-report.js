@@ -22,16 +22,19 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       feedIntake: {
-        type: Sequelize.INTEGER
+        type: Sequelize.FLOAT
       },
       mortalitas: {
-        type: Sequelize.INTEGER
+        type: Sequelize.FLOAT
       },
       deplesi: {
-        type: Sequelize.INTEGER
+        type: Sequelize.FLOAT
       },
       beratBadan: {
-        type: Sequelize.INTEGER
+        type: Sequelize.FLOAT
+      },
+      ksrgmnBB: {
+        type: Sequelize.FLOAT
       },
       comment: {
         type: Sequelize.TEXT

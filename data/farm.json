@@ -1,19 +1,19 @@
 [
   {
     "name": "Kandang 1",
-    "category": "layer",
+    "category": "Layer",
     "location": "Jombang",
     "abk": 3,
-    "strain": "brown",
+    "strain": "ISA Brown",
     "imgUrl":"https://awsimages.detik.net.id/community/media/visual/2021/09/26/peternakan-ayam_169.jpeg?w=1200",
     "UserId":1
   },
   {
     "name": "Kandang 2",
-    "category": "layer",
+    "category": "Layer",
     "location": "Jombang",
     "abk": 4,
-    "strain": "brown",
+    "strain": "ISA Brown",
     "imgUrl":"https://agromedia.net/wp-content/uploads/2015/12/jenis-kandang-ayam.jpg",
     "UserId":1
   }
